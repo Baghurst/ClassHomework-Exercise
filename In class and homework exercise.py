@@ -54,7 +54,7 @@ elif n == 2:
 else:
     print("three")
 
-#7.
+#7. (Don't understand the output)
 print('Number7: ')
 n = int(input("Enter an integer: "))
 if n < 1:
@@ -148,9 +148,123 @@ while i < 4:
     print()
     i += 1
 #11
+print("11: ")
+#A
+print("A: ")
+count = 0
+while count < 10:
+    print("Hello")
+    count += 1
+#B (Don't understand the output)
+print("B: ")
+x = 10
+y = 0
+while x > y:
+    print(x, y)
+    x = x - 1
+    y = y + 1
+#C
+print("C: ")    
+keepgoing = True
+x = 100
+while keepgoing:
+    print(x)
+    x = x - 10
+    if x < 50:
+        keepgoing = False
+#D(Don't understand the output)
+'''print("D: ")
+x = 45
+while x < 50 :
+    print (x)'''
+#E
+print("E: ")
+for x in [1,2,3,4,5]:
+    print (x)
+#F
+print("F: ")
+for x in range(5):
+    print (x)
+#G
+print("G: ")
+for p in range(1,10):
+    print (p)
+#H
+print("H: ")
+for q in range(100,50,-10):
+    print (q)
+#I
+print("I: ")
+for z in range(-500, 500, 100):
+    print (z)
+#J
+print("J: ")
+for y in range(500,100,100):
+    print (" * ", y)
+#K
+print("K: ")
+x = 10
+y = 5
+for i in range(x-y * 2):
+    print (" % ", i)
+#L (Don't understand the output)
+print("L: ")
+for x in[1,2,3]:
+    for y in [4, 5, 6]:
+        print (x, y)
+#M (Don't understand the output)
+print("M: ")     
+for x in range(3):
+    for y in range(4):
+        print (x, y, x + y)
+#N
+print("N: ")
+c = 0
+for x in range(10):
+    for y in range(5):
+        c += 1
+print (c)
 
+#12 (I don't understand the output)
+print("12: ")
+for i in range(4):
+    for j in range(5):
+        if i + 1 == j or j + i == 4:
+            print("+", end=' ')
+        else:
+            print("o", end=' ')
+    print()
+#13 How many times is of the if clause evaluated? (for 12)
 
-
-
-
-
+#14
+print("14: ")
+#A
+print("A: ")      
+        
+#15   
+print("15: ") 
+a = int(input("Enter a value: ")) 
+while a != 0:
+    count = count + 1
+    a = int(input("Enter a value: "))
+print("You entered", count, "value.")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+   
